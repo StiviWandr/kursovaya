@@ -1,0 +1,30 @@
+.Diory{
+    display: flex;
+    width: 100%;
+
+}
+
+
+.classList{
+    width: 15%;
+    border: 1px solid black;
+    min-height: 60vh;
+    border-left: 0;
+   
+}
+.className{
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 5px auto;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 4px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.className:hover{
+    color: white;
+    background-color: black;
+}

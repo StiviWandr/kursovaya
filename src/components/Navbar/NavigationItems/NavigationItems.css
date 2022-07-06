@@ -1,0 +1,7 @@
+.NavigationItems{
+    height: 80px;
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(26, 48, 51);
+    margin: 0;
+}

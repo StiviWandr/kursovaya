@@ -1,0 +1,56 @@
+.Admin{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.classList{
+    width: 15%;
+    border: 1px solid black;
+    min-height: 80vh;
+    border-left: 0;
+}
+.className{
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 5px 7px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 4px;
+    width: 90%;
+    cursor: pointer;
+}
+.className:hover{
+    color: white;
+    background-color: black;
+}
+
+.editBtn{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-image: url('../../../public/edit_button.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: none;
+    border: 0;
+    transition: transform .6s ease;
+}
+.editBtn:hover{
+    transform: scale(1.2);
+}
+
+.addStudent_btn{
+    width: 30%;
+    display: block;
+    height: 40px;
+    margin: 10px auto;
+    font-size: 22px;
+}

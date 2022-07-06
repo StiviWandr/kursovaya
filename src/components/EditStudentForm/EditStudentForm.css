@@ -1,0 +1,45 @@
+.EditStudentForm{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 50px 100px;
+}
+.EditStudentForm_input{
+    display: block;
+    width: 100%;
+    height: 42px;
+}
+
+.close_modal{
+    position: absolute;
+    right: 20%;
+    top: 3%;
+    cursor: pointer;
+}
+
+.input_title{
+    margin: 0;
+    margin-top: 15px;
+    font-size: 22px;
+    
+}
+
+.form_title{
+    width: 50%;
+    margin: 0 auto;
+}
+.EditStudentForm_form{
+    display: block;
+    border: 1px solid #0d6efd;
+    width: 50%;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin: 0 auto;
+    background: rgb(253, 236, 236);
+}
+.editInfo_btn{
+    margin: 20px 0;
+}
